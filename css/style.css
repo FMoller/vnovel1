@@ -1,0 +1,5 @@
+/*eslint-env es6*/
+#myCanvas{
+    background-image: url(img/janela2.jpeg);
+    background-size: cover;
+}
