@@ -4,10 +4,11 @@ Esboço de funcionalidade do jogo
 
 FRAME
 Desc: Objeto principal do jogo, tem as seguintes informações
-Tipo: Se é um frame comum ou um frame temporal
+Tipo: Se é um frame comum (0) ou um frame temporal (1)
 BGB: imagem de background do frame
 BGF: imagem de detalhes na frente do BG
 LFB: imagem do personagem da esqueda
+LEM: emoção do personagem da esquerda (valor int 0-7)
 RGB: imagem do personagem da direita
 CTB: imagem do personagem de centro
 LFF: imagem roupas personagem de esquerda
@@ -16,8 +17,28 @@ CTF: imagem roupas personagem de centro
 TXT: Texto do dialogo
 DIC: Dicionário de opções de dialogo (Apenas frames normais)
 TMM: Tempo até ir para o próximo frame (Apenas frames temporais)
+NTF: Próximo frame
 
-DICIONARO:
+DICIONARIO:
 OPC: Vetor de texto com os os textos de cada uma das opções
 CHG: Matriz numérica que muda o valor dos atributos, como relacionamento entre os char, dinheiro e qualquer outra coisa, cada linha representa uma Opção
 END: Vetor numérico com o código de próximo frame para cada opção
+
+MENU INCIAL:
+-> NOVO JOGO
+-> CARREGAR JOGO
+-> CARTÕES
+-> SAIR
+
+
+PROCESSO DE JOGO:
+-Carrega frame atual para o frame principal
+-Desenha frame principal
+-SE frame temporal
+--Aguarda tempo
+-SE NÃO:
+--Aguarda jogador clicar na opção
+--Acessa linha da matriz de recompensas (CHG do DIC)
+--Atualiza atributos
+--Atualiza próximo frame
+-Faz próximo frame ser o frame atual
