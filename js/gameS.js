@@ -11,9 +11,26 @@ const mainF={
     BGB: document.getElementById("bg1"),
     BGF: document.getElementById("fg1"),
     LFB: document.getElementById("ch0"),
-    LEM: 1
+    LEM: 0,
+    MARCOS: 3
 };
 
+
+function jeff(){
+    if(mainF.MARCOS>100){
+        if(mainF.LEM>7){
+            mainF.LEM=0;
+        }
+        else{
+            mainF.LEM+=1;
+        }
+        mainF.MARCOS=0;
+    }
+    else{
+        mainF.MARCOS+=1;
+    }
+    
+}
 
 
 function draw(){
@@ -21,9 +38,16 @@ function draw(){
     ctx.drawImage(mainF.BGB,bgpos[0],bgpos[1],bgpos[2],bgpos[3])
     ctx.drawImage(mainF.BGF,bgpos[0],bgpos[1],bgpos[2],bgpos[3])
     ctx.drawImage(mainF.LFB,chSz*mainF.LEM,0,chSz,chSz,lfpos[0],lfpos[1],lfpos[2],lfpos[3]) //source origins, source size, destination origins, destination size
+    
+    let output = `Marcos : ${mainF.MARCOS}`;
+    ctx.font = '24px arial';
+    ctx.textAlign = 'center';
+    ctx.fillStyle = 'white';
+    ctx.fillText(output, 300, 30);
+    jeff();
+    requestAnimationFrame(draw);
 }
 
-
-
-draw()
+requestAnimationFrame(draw);
+draw();
 
