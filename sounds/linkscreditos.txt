@@ -11,3 +11,8 @@ guinefurrie - https://freesound.org/people/guinefurrie/sounds/441509/ - SuspiroF
 Mynk-01 - https://freesound.org/people/Mynk-01/sounds/418396/ - RespiracaoDeSurpresa
 Aquillx - https://freesound.org/people/Aquillx/sounds/536886/ - RespiracaoAssustada
 InspectorJ - https://freesound.org/people/InspectorJ/sounds/405561/ - Wind
+TreasureSounds - https://freesound.org/people/TreasureSounds/sounds/332629/ - StartSelected
+NenadSimic -https://freesound.org/people/NenadSimic/sounds/171697/ - MouseHoveringMenu
+rhodesmas - https://freesound.org/people/rhodesmas/sounds/322929/ - ContinueMenuSound
+Ultranova105- https://freesound.org/people/Ultranova105/sounds/136757/ - SaveSoundMenu
+Soughtaftersounds - https://freesound.org/people/Soughtaftersounds/sounds/145441/ - MenuSelectedSound
