@@ -9,10 +9,12 @@ BGB: imagem de background do frame
 BGF: imagem de detalhes na frente do BG
 LFB: imagem do personagem da esqueda
 LEM: emoção do personagem da esquerda (valor int 0-7)
-RGB: imagem do personagem da direita
-CTB: imagem do personagem de centro
 LFF: imagem roupas personagem de esquerda
+RGB: imagem do personagem da direita
+REM: emoção do personagem da direita (valor int 0-7)
 RGF: imagem roupas personagem de direita
+CTB: imagem do personagem de centro
+CEM: emoção do personagem do centro (valor int 0-7)
 CTF: imagem roupas personagem de centro
 TXT: Texto do dialogo
 DIC: Dicionário de opções de dialogo (Apenas frames normais)
