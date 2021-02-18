@@ -1,0 +1,31 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+# Changelog format
+#[Version]
+## DATE - Author
+
+### Fuilename
+-Changes
+
+DATE = YYYY.MM.DD
+
+
+# Example:
+#[0.01]
+## 2021.01.20 - Moeller
+
+### Test.js 
+-Function bla implemented
+-Bug in function x corrected
+-Functions jeff and marcos merged.
+
+###############################################################################
+
+#[0.01]
+## 2021.02.18 - Moeller
+
+### menu_principal.aseprite
+-Yellowshift applied to the tree's trunk
+-Small grass draw near the tree's trunk base
+-Base for the tree shaddow in the ground added
