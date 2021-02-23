@@ -47,12 +47,23 @@ function jeff(){
 /**
  * Break the mainF.TXT to fit in dialog box
 **/
+/**
 function show_dialog(){
-    line_ome = mainF.TXT;
-    line_two = "";
-    line_three = "";
+    let line_one = "";
+    let line_two = "";
+    let line_three = "";
+    if(mainF.TXT.length < 10){
+        line_one = mainF.TXT;
+    }
+    ctx.font = '16px arial';
+    ctx.textAlign = 'left';
+    ctx.fillStyle = txtcolor;
+    ctx.fillText(line_one,txtpos[0],txtpos[1]);
+    ctx.fillText(line_two,txtpos[0],txtpos[1]+line_space);
+    ctx.fillText(line_three,txtpos[0],txtpos[1]+2*line_space);
     
 }
+**/
 
 
 function draw(){
@@ -69,11 +80,8 @@ function draw(){
     ctx.scale(-1, 1);
     ctx.drawImage(mainF.CTB,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
     ctx.drawImage(mainF.CTF,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
-    let dialog = mainF.TXT
-    ctx.font = '16px arial'
-    ctx.textAlign = 'left'
-    ctx.fillStyle = txtcolor
-    ctx.fillText(dialog,txtpos[0],txtpos[1])
+    
+    //show_dialog();
 
     
     let output = `Marcos : ${mainF.MARCOS}`;
