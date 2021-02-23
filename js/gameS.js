@@ -44,7 +44,15 @@ function jeff(){
     
 }
 
-
+/**
+ * Break the mainF.TXT to fit in dialog box
+**/
+function show_dialog(){
+    line_ome = mainF.TXT;
+    line_two = "";
+    line_three = "";
+    
+}
 
 
 function draw(){
