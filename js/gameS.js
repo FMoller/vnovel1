@@ -23,7 +23,7 @@ const mainF={
     CTB: document.getElementById("ch0"),
     CEM: 1,
     CTF: document.getElementById("cl1"),
-    TXT: "Test \n Test \n Test",
+    TXT: "Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl",
     MARCOS: 3
 };
 
@@ -47,13 +47,25 @@ function jeff(){
 /**
  * Break the mainF.TXT to fit in dialog box
 **/
-/**
+
 function show_dialog(){
     let line_one = "";
     let line_two = "";
     let line_three = "";
-    if(mainF.TXT.length < 10){
+    const base = 2.5*bgpos[2]/16
+    if(mainF.TXT.length < base){
         line_one = mainF.TXT;
+    }
+    else if(mainF.TXT.length < 2*base){
+        line_one = mainF.TXT.slice(0,base);
+        line_two = mainF.TXT.slice(base, 2*base);
+        
+    }
+    else{
+        line_one = mainF.TXT.slice(0,base);
+        line_two = mainF.TXT.slice(base, 2*base);
+        line_three = mainF.TXT.slice(2*base, 3*base);
+        
     }
     ctx.font = '16px arial';
     ctx.textAlign = 'left';
@@ -61,9 +73,8 @@ function show_dialog(){
     ctx.fillText(line_one,txtpos[0],txtpos[1]);
     ctx.fillText(line_two,txtpos[0],txtpos[1]+line_space);
     ctx.fillText(line_three,txtpos[0],txtpos[1]+2*line_space);
-    
 }
-**/
+
 
 
 function draw(){
@@ -81,7 +92,7 @@ function draw(){
     ctx.drawImage(mainF.CTB,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
     ctx.drawImage(mainF.CTF,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
     
-    //show_dialog();
+    show_dialog();
 
     
     let output = `Marcos : ${mainF.MARCOS}`;
