@@ -4,7 +4,7 @@ Esboço de funcionalidade do jogo
 
 FRAME
 Desc: Objeto principal do jogo, tem as seguintes informações
-Tipo: Se é um frame comum (0) ou um frame temporal (1)
+Tipo: Se é um frame comum (0) ou um frame temporal (1) ou frame de texto (3)
 BGB: imagem de background do frame
 BGF: imagem de detalhes na frente do BG
 LFB: imagem do personagem da esqueda

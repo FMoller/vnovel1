@@ -22,10 +22,17 @@ DATE = YYYY.MM.DD
 
 ###############################################################################
 
-#[0.01]
+#[0.01.0]
 ## 2021.02.18 - Moeller
 
 ### menu_principal.aseprite
 -Yellowshift applied to the tree's trunk
 -Small grass draw near the tree's trunk base
 -Base for the tree shaddow in the ground added
+
+#[0.01.1]
+## 2021.02.23 - Moeller
+
+### js/gameS.js
+-Function show_dialog() implemented
+-Text kind of frame defined
