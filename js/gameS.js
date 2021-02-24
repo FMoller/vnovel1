@@ -8,10 +8,11 @@ const cfpos = [208,96,224,224];
 const chSz = 112; //Size of each char frame
 const txtcolor = 'white';
 const line_space = 20;
+const block_s = 32
 const txtpos = [96,320+line_space];
 
 const mainF={
-    tipo:0,
+    tipo:2,
     BGB: document.getElementById("bg1"),
     BGF: document.getElementById("fg1"),
     LFB: document.getElementById("ch0"),
@@ -23,7 +24,8 @@ const mainF={
     CTB: document.getElementById("ch0"),
     CEM: 1,
     CTF: document.getElementById("cl1"),
-    TXT: "Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbiblBlablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbiblBlablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbiblBlablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbiblBlablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl Blablabla blobloblo blilbilbibl Blablabla blobloblo blilbilbibl blobloblo blilbilbibl",
+    TXT: "Jefferina aways wanted a fantasy game, but she ended shoting the fucking lasers in the space. When Mizurian says he does not know to play a game, that means he is almost in the pro-lvl. Marcos won a Hugo prize before Moeller and Nec. But Moeller is trying to compete with bethesda for the title the most bugged game ever.",
+    OPC: ["Text option 1","Text option 2","Text option 3","Text option 4"],
     MARCOS: 3
 };
 
@@ -55,7 +57,7 @@ function show_dialog(){ //Should reimplement it as array in the future
     let line_four = "";
     let line_five = "";
     let line_six = "";
-    const base = 2.5*bgpos[2]/16
+    const base = 2.1*bgpos[2]/16
     if(mainF.TXT.length < base){
         line_one = mainF.TXT;
     }
@@ -105,7 +107,13 @@ function show_dialog(){ //Should reimplement it as array in the future
     ctx.fillText(line_six,txtpos[0],txtpos[1]+5*line_space);
 }
 
-
+/**
+ * Display the options in the frame
+**//**
+function display_opt(){
+    for(c)
+}
+**/
 
 function draw(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
@@ -121,8 +129,10 @@ function draw(){
     ctx.scale(-1, 1);
     ctx.drawImage(mainF.CTB,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
     ctx.drawImage(mainF.CTF,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
+    if(mainF.tipo==2){
+        show_dialog();
+    }
     
-    show_dialog();
 
     
     let output = `Marcos : ${mainF.MARCOS}`;
