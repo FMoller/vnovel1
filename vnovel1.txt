@@ -17,12 +17,11 @@ CTB: imagem do personagem de centro
 CEM: emoção do personagem do centro (valor int 0-7)
 CTF: imagem roupas personagem de centro
 TXT: Texto do dialogo
-DIC: Dicionário de opções de dialogo (Apenas frames normais)
+OPC: Vetor de texto com os os textos de cada uma das opções
 TMM: Tempo até ir para o próximo frame (Apenas frames temporais)
 NTF: Próximo frame
 
 DICIONARIO:
-OPC: Vetor de texto com os os textos de cada uma das opções
 CHG: Matriz numérica que muda o valor dos atributos, como relacionamento entre os char, dinheiro e qualquer outra coisa, cada linha representa uma Opção
 END: Vetor numérico com o código de próximo frame para cada opção
 

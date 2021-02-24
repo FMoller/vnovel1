@@ -12,7 +12,7 @@ const block_s = 32
 const txtpos = [96,320+line_space];
 
 const mainF={
-    tipo:2,
+    tipo:0,
     BGB: document.getElementById("bg1"),
     BGF: document.getElementById("fg1"),
     LFB: document.getElementById("ch0"),
@@ -109,11 +109,28 @@ function show_dialog(){ //Should reimplement it as array in the future
 
 /**
  * Display the options in the frame
-**//**
-function display_opt(){
-    for(c)
-}
 **/
+function display_opt(){
+    var i;
+    for(i = 0;i < 4;i++){
+        ctx.font = '16px arial';
+        ctx.textAlign = 'left';
+        ctx.fillStyle = txtcolor;
+        ctx.fillText(mainF.OPC[i],txtpos[0]+block_s,txtpos[1]+8+i*block_s);
+    }
+}
+
+/**
+ * Display all text
+**/
+function display_all_text(){
+    if(mainF.tipo==2){
+        show_dialog();
+    }
+    else if(mainF.tipo==0){
+        display_opt();
+    }
+}
 
 function draw(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
@@ -129,10 +146,8 @@ function draw(){
     ctx.scale(-1, 1);
     ctx.drawImage(mainF.CTB,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
     ctx.drawImage(mainF.CTF,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
-    if(mainF.tipo==2){
-        show_dialog();
-    }
     
+    display_all_text();
 
     
     let output = `Marcos : ${mainF.MARCOS}`;

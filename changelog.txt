@@ -30,9 +30,14 @@ DATE = YYYY.MM.DD
 -Small grass draw near the tree's trunk base
 -Base for the tree shaddow in the ground added
 
-#[0.01.1]
+#[0.01.3]
 ## 2021.02.23 - Moeller
 
 ### js/gameS.js
 -Function show_dialog() implemented
+-Function display_opt() implemented
+-Function display_all_text implemented
+
+### vnovel1.txt
 -Text kind of frame defined
+-Change OPC is now an Frame element
