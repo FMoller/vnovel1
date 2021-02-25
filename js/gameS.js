@@ -11,8 +11,12 @@ const line_space = 20;
 const block_s = 32
 const txtpos = [96,320+line_space];
 
+const arrow = document.getElementById("arr");
+const arrow_c = [56,440]
+const btn_opt = document.getElementById("opt");
+
 const mainF={
-    tipo:0,
+    tipo: 2,
     BGB: document.getElementById("bg1"),
     BGF: document.getElementById("fg1"),
     LFB: document.getElementById("ch0"),
@@ -32,8 +36,14 @@ const mainF={
 
 function jeff(){
     if(mainF.MARCOS>100){
-        if(mainF.LEM>7){
+        if(mainF.LEM>4){
             mainF.LEM=0;
+            if(mainF.tipo==0){
+                mainF.tipo=2;
+            }
+            else{
+                mainF.tipo=0;
+            }
         }
         else{
             mainF.LEM+=1;
@@ -132,6 +142,27 @@ function display_all_text(){
     }
 }
 
+/**
+ * Display the buttons on the screen
+**/
+function display_btn(){
+    if(mainF.tipo==2){
+        ctx.drawImage(arrow,arrow_c[0],arrow_c[1]);
+        ctx.translate(canvas.width, 0);
+        ctx.scale(-1, 1);
+        ctx.drawImage(arrow,arrow_c[0],arrow_c[1]);
+        ctx.translate(canvas.width, 0);
+        ctx.scale(-1, 1);
+    }
+    else if(mainF.tipo==0){
+        ctx.drawImage(arrow,arrow_c[0],arrow_c[1]);
+        for(i = 0;i < 4;i++){
+            ctx.drawImage(btn_opt,txtpos[0]-32+block_s,txtpos[1]+i*block_s-12);
+        }
+        
+    }
+}
+
 function draw(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
     ctx.drawImage(mainF.BGB,bgpos[0],bgpos[1],bgpos[2],bgpos[3])
@@ -147,6 +178,7 @@ function draw(){
     ctx.drawImage(mainF.CTB,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
     ctx.drawImage(mainF.CTF,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
     
+    display_btn();
     display_all_text();
 
     

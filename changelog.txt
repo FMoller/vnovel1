@@ -41,3 +41,19 @@ DATE = YYYY.MM.DD
 ### vnovel1.txt
 -Text kind of frame defined
 -Change OPC is now an Frame element
+
+#[0.01.4]
+## 2021.02.25 - Moeller
+
+### js/game.js
+-Function display_btn implemented
+
+### arrow_test.png
+-created
+
+### opt_test.png
+-created
+
+### index.html
+-arrow_test.png listed as arr
+-opt_test.png listed as opt
