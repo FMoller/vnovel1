@@ -42,10 +42,10 @@ DATE = YYYY.MM.DD
 -Text kind of frame defined
 -Change OPC is now an Frame element
 
-#[0.01.4]
+#[0.01.5]
 ## 2021.02.25 - Moeller
 
-### js/game.js
+### js/gameS.js
 -Function display_btn implemented
 
 ### arrow_test.png
@@ -54,6 +54,10 @@ DATE = YYYY.MM.DD
 ### opt_test.png
 -created
 
+### frames.js
+-created
+
 ### index.html
 -arrow_test.png listed as arr
 -opt_test.png listed as opt
+-gameS.js is now a module <-THIS MAY BE A PROBLEM FOR OUR ENGINE

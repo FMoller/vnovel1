@@ -1,4 +1,6 @@
 /*eslint-env es6*/
+import {franes} from "./frames/frames.js"
+
 const canvas = document.querySelector('#myCanvas');
 const ctx = canvas.getContext('2d');
 
@@ -14,6 +16,10 @@ const txtpos = [96,320+line_space];
 const arrow = document.getElementById("arr");
 const arrow_c = [56,440]
 const btn_opt = document.getElementById("opt");
+
+const frames = document.getElementById("TESTE");
+const dframes = document.getElementById("DICT");
+
 
 const mainF={
     tipo: 2,
@@ -56,6 +62,16 @@ function jeff(){
     
 }
 
+/**
+ * Update Mainf values
+ * @param val_id = Frame ID
+
+
+function update_frame(val_id){
+    
+    
+}
+**/
 /**
  * Break the mainF.TXT to fit in dialog box
 **/
@@ -156,7 +172,7 @@ function display_btn(){
     }
     else if(mainF.tipo==0){
         ctx.drawImage(arrow,arrow_c[0],arrow_c[1]);
-        for(i = 0;i < 4;i++){
+        for(var i = 0;i < 4;i++){
             ctx.drawImage(btn_opt,txtpos[0]-32+block_s,txtpos[1]+i*block_s-12);
         }
         
