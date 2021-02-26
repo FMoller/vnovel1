@@ -198,7 +198,7 @@ function draw(){
     display_all_text();
 
     
-    let output = `Marcos : ${mainF.MARCOS}`;
+    let output = `Marcos : ${franes[0][0]}`;
     ctx.font = '24px arial';
     ctx.textAlign = 'center';
     ctx.fillStyle = 'white';
