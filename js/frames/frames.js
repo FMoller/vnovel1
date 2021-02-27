@@ -1,6 +1,6 @@
 /*eslint-env es6*/
 export const franes = [
-    [2,
+    [2,  //0
     "bg1",
     "fg1",
     "ch0",
@@ -22,10 +22,9 @@ export const franes = [
     0,
     0,
     0,
-    0,
     0,]],
     
-    [0,
+    [0,  //1
     "bg1",
     "fg1",
     "ch0",
@@ -44,7 +43,6 @@ export const franes = [
     "Faya"],
     [0,
     1,
-    0,
     2,
     3,
     4,
