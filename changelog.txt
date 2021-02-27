@@ -62,7 +62,7 @@ DATE = YYYY.MM.DD
 -opt_test.png listed as opt
 -gameS.js is now a module <-THIS MAY BE A PROBLEM FOR OUR ENGINE
 
-#[0.01.7]
+#[0.01.8]
 ## 2021.02.26
 
 ### js/gameS.js
@@ -72,3 +72,6 @@ DATE = YYYY.MM.DD
 
 ### franes.js
 -Frame pattern changed
+
+### null.png
+-created
