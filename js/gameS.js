@@ -104,6 +104,13 @@ function cdetect(x,y){
             update_frame(mainF.END[1]);
         }
     }
+    else{
+        for(var i = 0; i < 4 ; i++){
+            if((x>=btn_opt,txtpos[0]-32+block_s&&x<btn_opt,txtpos[0]+block_s)&&(y>=txtpos[1]+i*block_s-12&&y<txtpos[1]+i*block_s-12+32)){
+                update_frame(mainF.END[i+2]);
+            }
+        }
+    }
 }
 
 /**
