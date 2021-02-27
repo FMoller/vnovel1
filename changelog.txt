@@ -62,9 +62,13 @@ DATE = YYYY.MM.DD
 -opt_test.png listed as opt
 -gameS.js is now a module <-THIS MAY BE A PROBLEM FOR OUR ENGINE
 
-#[0.01.4]
+#[0.01.7]
 ## 2021.02.26
 
 ### js/gameS.js
 -Mouse click detection event add
--cdetect function created
+-Function cdetect() -> arrows implemented
+-Function update_frame(val_id) implemented
+
+### franes.js
+-Frame pattern changed

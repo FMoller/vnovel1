@@ -20,6 +20,7 @@ const btn_opt = document.getElementById("opt");
 const frames = document.getElementById("TESTE");
 const dframes = document.getElementById("DICT");
 
+const lel = ["12",2]
 const mouse={
     x: 0,
     y: 0
@@ -41,6 +42,7 @@ const mainF={
     CTF: document.getElementById("cl1"),
     TXT: "Jefferina aways wanted a fantasy game, but she ended shoting the fucking lasers in the space. When Mizurian says he does not know to play a game, that means he is almost in the pro-lvl. Marcos won a Hugo prize before Moeller and Nec. But Moeller is trying to compete with bethesda for the title the most bugged game ever.",
     OPC: ["Text option 1","Text option 2","Text option 3","Text option 4"],
+    END: [0,0,0,0,0,0],
     MARCOS: 3,
     TEST: 0
 };
@@ -50,13 +52,7 @@ function jeff(){
     if(mainF.MARCOS>100){
         if(mainF.LEM>4){
             mainF.LEM=0;
-            if(mainF.tipo==0){
-                mainF.tipo=2;
             }
-            else{
-                mainF.tipo=0;
-            }
-        }
         else{
             mainF.LEM+=1;
         }
@@ -71,13 +67,28 @@ function jeff(){
 /**
  * Update Mainf values
  * @param val_id = Frame ID
-
+**/
 
 function update_frame(val_id){
+    mainF.tipo = franes[val_id][0];
+    mainF.BGB = document.getElementById(franes[val_id][1]);
+    mainF.BGF = document.getElementById(franes[val_id][2]);
+    mainF.LFB = document.getElementById(franes[val_id][3]);
+    mainF.LEM = franes[val_id][4];
+    mainF.LFF = document.getElementById(franes[val_id][5]);
+    mainF.RGB = document.getElementById(franes[val_id][6]);
+    mainF.REM = franes[val_id][7];
+    mainF.RGF = document.getElementById(franes[val_id][8]);
+    mainF.CTB = document.getElementById(franes[val_id][9]);
+    mainF.CEM = franes[val_id][10];
+    mainF.CTF = document.getElementById(franes[val_id][11]);
+    mainF.TXT = franes[val_id][12];
+    mainF.OPC = franes[val_id][13];
+    mainF.END = franes[val_id][14];
     
     
 }
-**/
+
 
 /**
  * Manage the mouse events
@@ -86,7 +97,12 @@ function update_frame(val_id){
 **/
 function cdetect(x,y){
     if((x>=arrow_c[0]&&x<arrow_c[0]+32)&&(y>=arrow_c[1]&&y<arrow_c[1]+32)){
-        mainF.TEST = 1
+        update_frame(mainF.END[0]);
+    }
+    else if((x>=arrow_c[0]+40+bgpos[2]&&x<arrow_c[0]+80+bgpos[2])&&(y>=arrow_c[1]&&y<arrow_c[1]+32)){
+        if(mainF.tipo==2){
+            update_frame(mainF.END[1]);
+        }
     }
 }
 
@@ -216,12 +232,12 @@ function draw(){
     display_all_text();
 
     
-    let output = `X : ${mouse.x},${mouse.y},${mainF.TEST}`;
+    let output = `X : ${mouse.x},${mouse.y},${franes[0][0]}`;
     ctx.font = '24px arial';
     ctx.textAlign = 'center';
     ctx.fillStyle = 'white';
     ctx.fillText(output, 300, 30);
-    jeff();
+    //jeff();
     requestAnimationFrame(draw);
 }
 
