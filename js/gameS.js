@@ -41,7 +41,8 @@ const mainF={
     CTF: document.getElementById("cl1"),
     TXT: "Jefferina aways wanted a fantasy game, but she ended shoting the fucking lasers in the space. When Mizurian says he does not know to play a game, that means he is almost in the pro-lvl. Marcos won a Hugo prize before Moeller and Nec. But Moeller is trying to compete with bethesda for the title the most bugged game ever.",
     OPC: ["Text option 1","Text option 2","Text option 3","Text option 4"],
-    MARCOS: 3
+    MARCOS: 3,
+    TEST: 0
 };
 
 
@@ -77,6 +78,18 @@ function update_frame(val_id){
     
 }
 **/
+
+/**
+ * Manage the mouse events
+ * @param x = x mouse position
+ * @param y = y mouse position
+**/
+function cdetect(x,y){
+    if((x>=arrow_c[0]&&x<arrow_c[0]+32)&&(y>=arrow_c[1]&&y<arrow_c[1]+32)){
+        mainF.TEST = 1
+    }
+}
+
 /**
  * Break the mainF.TXT to fit in dialog box
 **/
@@ -203,7 +216,7 @@ function draw(){
     display_all_text();
 
     
-    let output = `X : ${mouse.x},${mouse.y}`;
+    let output = `X : ${mouse.x},${mouse.y},${mainF.TEST}`;
     ctx.font = '24px arial';
     ctx.textAlign = 'center';
     ctx.fillStyle = 'white';
@@ -215,7 +228,7 @@ function draw(){
 canvas.addEventListener('click', function(event) {
     mouse.x = event.layerX;
     mouse.y = event.layerY;
-
+    cdetect(event.layerX,event.layerY);
 });
 
 requestAnimationFrame(draw);
