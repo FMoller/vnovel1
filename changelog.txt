@@ -61,3 +61,10 @@ DATE = YYYY.MM.DD
 -arrow_test.png listed as arr
 -opt_test.png listed as opt
 -gameS.js is now a module <-THIS MAY BE A PROBLEM FOR OUR ENGINE
+
+#[0.01.4]
+## 2021.02.26
+
+### js/gameS.js
+-Mouse click detection event add
+-cdetect function created
