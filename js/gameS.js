@@ -107,6 +107,7 @@ function cdetect(x,y){
     else{
         for(var i = 0; i < 4 ; i++){
             if((x>=btn_opt,txtpos[0]-32+block_s&&x<btn_opt,txtpos[0]+block_s)&&(y>=txtpos[1]+i*block_s-12&&y<txtpos[1]+i*block_s-12+32)){
+                mainF.TEST = i+2;
                 update_frame(mainF.END[i+2]);
             }
         }
@@ -239,7 +240,7 @@ function draw(){
     display_all_text();
 
     
-    let output = `X : ${mouse.x},${mouse.y},${franes[0][0]}`;
+    let output = `X : ${mouse.x},${mouse.y},${mainF.TEST}`;
     ctx.font = '24px arial';
     ctx.textAlign = 'center';
     ctx.fillStyle = 'white';

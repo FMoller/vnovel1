@@ -22,7 +22,7 @@ export const franes = [
     0,
     0,
     0,
-    0,]],
+    0,]], //frame 0 end
     
     [0,  //1
     "bg1",
@@ -46,7 +46,7 @@ export const franes = [
     2,
     3,
     4,
-    5,]],
+    5,]], //frame 1 end
     
     [2, //2
     "bg1",
@@ -60,17 +60,17 @@ export const franes = [
     "nll",
     0,
     "nll",
-    "G-game d-director sempai?",
+    "G-game d-director senpai?",
     ["", //Options
     "",
     "",
     ""],
     [1,
+    6,
     2,
     2,
     2,
-    2,
-    2,]],,
+    2,]], //frame 2 end
     
     [2, //3
     "bg1",
@@ -94,7 +94,7 @@ export const franes = [
     3,
     3,
     3,
-    3,]],
+    3,]], //frame 3 end
     
     [2, //4
     "bg1",
@@ -118,7 +118,7 @@ export const franes = [
     4,
     4,
     4,
-    4,]],
+    4,]], //frame 4 end
     
     [2, //5
     "bg1",
@@ -142,5 +142,29 @@ export const franes = [
     5,
     5,
     5,
-    5,]]
+    5,]], //frame 5 end
+    
+    [2, //6
+    "bg1",
+    "fg1",
+    "ch0",
+    1,
+    "cl1",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "*SLAP Y-YOU BAKA HENTAI! AREN'T YOU ASHAMED BY YOUR CODE? I DON'T WANT TO LIVE IN THIS TRASH!",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [2,
+    6,
+    6,
+    6,
+    6,
+    6,]], //frame 6 end
         ]
