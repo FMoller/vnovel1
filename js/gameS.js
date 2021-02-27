@@ -20,6 +20,11 @@ const btn_opt = document.getElementById("opt");
 const frames = document.getElementById("TESTE");
 const dframes = document.getElementById("DICT");
 
+const mouse={
+    x: 0,
+    y: 0
+}
+
 
 const mainF={
     tipo: 2,
@@ -198,7 +203,7 @@ function draw(){
     display_all_text();
 
     
-    let output = `Marcos : ${franes[0][0]}`;
+    let output = `X : ${mouse.x},${mouse.y}`;
     ctx.font = '24px arial';
     ctx.textAlign = 'center';
     ctx.fillStyle = 'white';
@@ -206,6 +211,12 @@ function draw(){
     jeff();
     requestAnimationFrame(draw);
 }
+
+canvas.addEventListener('click', function(event) {
+    mouse.x = event.layerX;
+    mouse.y = event.layerY;
+
+});
 
 requestAnimationFrame(draw);
 draw();
