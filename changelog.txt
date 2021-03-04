@@ -84,3 +84,15 @@ DATE = YYYY.MM.DD
 
 ### frames.js
 -testing frames 2-6 added.
+
+
+## 2021.03.04 - Jefferson
+
+### menu_principal.aseprite
+-Small grass aplied on the shadow
+-Small light grass version on the grass lighter
+-Background with mountains added
+-Cloud in background added
+-Background sky with gradient color
+-Menu size fixed
+ 
