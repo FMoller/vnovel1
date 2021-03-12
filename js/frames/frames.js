@@ -22,7 +22,8 @@ export const franes = [
     0,
     0,
     0,
-    0,]], //frame 0 end
+    0,],
+    0], //frame 0 end
     
     [0,  //1
     "bg1",
@@ -46,7 +47,8 @@ export const franes = [
     2,
     3,
     4,
-    5,]], //frame 1 end
+    5,],
+    0], //frame 1 end
     
     [2, //2
     "bg1",
@@ -70,7 +72,8 @@ export const franes = [
     2,
     2,
     2,
-    2,]], //frame 2 end
+    2,],
+    0], //frame 2 end
     
     [2, //3
     "bg1",
@@ -94,7 +97,8 @@ export const franes = [
     3,
     3,
     3,
-    3,]], //frame 3 end
+    3,],
+    0], //frame 3 end
     
     [2, //4
     "bg1",
@@ -118,7 +122,8 @@ export const franes = [
     4,
     4,
     4,
-    4,]], //frame 4 end
+    4,],
+    0], //frame 4 end
     
     [2, //5
     "bg1",
@@ -142,7 +147,8 @@ export const franes = [
     5,
     5,
     5,
-    5,]], //frame 5 end
+    5,],
+    0], //frame 5 end
     
     [2, //6
     "bg1",
@@ -162,9 +168,60 @@ export const franes = [
     "",
     ""],
     [2,
+    7,
+    6,
+    6,
+    6,
+    6,],
+    0], //frame 6 end
+    
+    [1, //7
+    "bg1",
+    "fg1",
+    "ch0",
+    4,
+    "cl1",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [8,
     6,
     6,
     6,
     6,
-    6,]], //frame 6 end
+    6,],
+    300], //frame 7 end
+    
+    [2, //8
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "I hope you baka is happy with the timed frame",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [6,
+    8,
+    8,
+    8,
+    8,
+    8,],
+    0], //frame 8 end
         ]

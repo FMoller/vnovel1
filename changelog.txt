@@ -63,7 +63,7 @@ DATE = YYYY.MM.DD
 -gameS.js is now a module <-THIS MAY BE A PROBLEM FOR OUR ENGINE
 
 #[0.01.8]
-## 2021.02.26
+## 2021.02.26 -Moeller
 
 ### js/gameS.js
 -Mouse click detection event add
@@ -85,7 +85,7 @@ DATE = YYYY.MM.DD
 ### frames.js
 -testing frames 2-6 added.
 
-
+#[0.02.1]
 ## 2021.03.04 - Jefferson
 
 ### menu_principal.aseprite
@@ -96,3 +96,11 @@ DATE = YYYY.MM.DD
 -Background sky with gradient color
 -Menu size fixed
  
+#[0.02.2]
+## 2021.03.12 - Moeller
+
+### js/gameJ.js
+-Timed frame system implemented
+
+### frames.js
+-Timed frame example added in frame 7

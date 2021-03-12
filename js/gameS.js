@@ -43,26 +43,10 @@ const mainF={
     TXT: "Jefferina aways wanted a fantasy game, but she ended shoting the fucking lasers in the space. When Mizurian says he does not know to play a game, that means he is almost in the pro-lvl. Marcos won a Hugo prize before Moeller and Nec. But Moeller is trying to compete with bethesda for the title the most bugged game ever.",
     OPC: ["Text option 1","Text option 2","Text option 3","Text option 4"],
     END: [0,0,0,0,0,0],
-    MARCOS: 3,
+    TMM: 300,
     TEST: 0
 };
 
-
-function jeff(){
-    if(mainF.MARCOS>100){
-        if(mainF.LEM>4){
-            mainF.LEM=0;
-            }
-        else{
-            mainF.LEM+=1;
-        }
-        mainF.MARCOS=0;
-    }
-    else{
-        mainF.MARCOS+=1;
-    }
-    
-}
 
 /**
  * Update Mainf values
@@ -85,6 +69,7 @@ function update_frame(val_id){
     mainF.TXT = franes[val_id][12];
     mainF.OPC = franes[val_id][13];
     mainF.END = franes[val_id][14];
+    mainF.TMM = franes[val_id][15];
     
     
 }
@@ -235,12 +220,22 @@ function draw(){
     ctx.scale(-1, 1);
     ctx.drawImage(mainF.CTB,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
     ctx.drawImage(mainF.CTF,chSz*mainF.CEM,0,chSz,chSz,cfpos[0],cfpos[1],cfpos[2],cfpos[3])
+    if(mainF.tipo==1){
+        
+        if(mainF.TMM==0){
+            update_frame(mainF.END[0])
+        }
+        else{
+            mainF.TMM-=1
+        }
+        
+    }
     
     display_btn();
     display_all_text();
 
     
-    let output = `X : ${mouse.x},${mouse.y},${mainF.TEST}`;
+    let output = `X : ${mouse.x},${mouse.y},${mainF.TMM}`;
     ctx.font = '24px arial';
     ctx.textAlign = 'center';
     ctx.fillStyle = 'white';
