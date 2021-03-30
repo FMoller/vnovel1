@@ -113,3 +113,8 @@ DATE = YYYY.MM.DD
 -Change a new color set for the mountain layers
 -Added some shaddowing in the mountain layers 1 and 2
 -Add some lighting and shadowing in the mountain layer 3
+
+#[0.02.2]
+## 2021.03.29
+### menu_principal.aseprite and menu_principal.png
+-Add some lighting and shadowing in the mountain layer 3
