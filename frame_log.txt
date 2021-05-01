@@ -1,0 +1,10 @@
+00 inicial -> [],{1}
+01 options -> [0],{2,3,4,5}
+02 moller start -> [1],{6}
+03 jeff start -> [1],{}
+04 marcos start -> [1],{}
+05 nec start -> [1],{}
+06 moller pt1 -> [2],{7}
+07 moller timed -> [],{8}
+08 moller pt2 -> [6],{9}
+09 moller end -> [8],{}

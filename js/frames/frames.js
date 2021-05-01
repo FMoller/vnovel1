@@ -1,29 +1,30 @@
 /*eslint-env es6*/
 export const franes = [
-    [2,  //0
-    "bg1",
-    "fg1",
-    "ch0",
-    0,
-    "cl1",
-    "nll",
-    0,
-    "nll",
-    "nll",
-    0,
-    "nll",
-    "Hello, this is the test interface of vnovel 1. I am the -vtsundere I and I am here to help you, not because I like you, Its just my job. Y-you are not a random perv, right? Are you from the dev team? If yes, who are you?",
-    ["", //Options
+    [2,  //0 Tipo de frame 0 -opções, 1 - temporal 2 - texto
+    "bg1", // background
+    "fg1", // foreground
+    "ch0", // charset left side
+    1, // Emotion 0 - 7 left side
+    "cl1", // clothes left side
+    "nll", // charset right side
+    0, // Emotion right side
+    "nll", // clothes right side
+    "nll", // charset center
+    0, // emotion center
+    "nll", // clothes center
+    "Hello, this is the test interface of vnovel 1. I am the -vtsundere I and I am here to help you, not because I like you, Its just my job. Y-you are not a random perv, right? Are you from the dev team? If yes, who are you?", // Frame text
+    ["", 
     "",
     "",
-    ""],
+    ""], //Options
     [0,
     1,
     0,
     0,
     0,
-    0,],
-    0], //frame 0 end
+    0,], // Directives
+    0 //Frame Timing
+    ], //frame 0 end 
     
     [0,  //1
     "bg1",
@@ -198,7 +199,7 @@ export const franes = [
     6,
     6,
     6,],
-    300], //frame 7 end
+    100], //frame 7 end
     
     [2, //8
     "bg1",
@@ -218,10 +219,35 @@ export const franes = [
     "",
     ""],
     [6,
-    8,
+    9,
     8,
     8,
     8,
     8,],
     0], //frame 8 end
+    
+    [2, //9
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Sup bro",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [8,
+    9,
+    9,
+    9,
+    9,
+    9,],
+    0], //frame 9 end
         ]
