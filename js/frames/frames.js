@@ -105,8 +105,8 @@ export const franes = [
     "bg1",
     "fg1",
     "ch0",
-    2,
-    "cl1",
+    0,
+    "nll",
     "nll",
     0,
     "nll",
@@ -119,11 +119,11 @@ export const franes = [
     "",
     ""],
     [1,
-    4,
-    4,
-    4,
-    4,
-    4,],
+    10,
+    0,
+	0,
+    0,
+    0,],
     0], //frame 4 end
     
     [2, //5
@@ -251,3 +251,109 @@ export const franes = [
     9,],
     0], //frame 9 end
         ]
+		
+	[2, //10
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Hey listen, theses paradox games will only get more a more expensive, you should stop playing them and expend time with me",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [4,
+    11,
+    0,
+    0,
+    0,
+    0,],
+    0], //frame 10 end
+        ]	
+	
+	[0, //11
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "nl1",
+    "nl1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "",
+    ["Yeah but playing them is so good", //Options
+    "You are right i should stop playing them and start programing you",
+    "",
+    ""],
+    [10,
+    10,
+    12,
+    13,
+    0,
+    0,],
+    0], //frame 11 end
+        ]
+		
+	[2, //12
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "No, you are only feeding your own adiction",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 12 end
+        ]	
+	
+	[2, //13
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Yeah this is right, you should spend more time developing me instead of playing games",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 13 end
+        ]	
+	
+		
