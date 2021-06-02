@@ -250,7 +250,6 @@ export const franes = [
     9,
     9,],
     0], //frame 9 end
-        ]
 		
 	[2, //10
     "bg1",
@@ -276,15 +275,14 @@ export const franes = [
     0,
     0,],
     0], //frame 10 end
-        ]	
 	
 	[0, //11
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nl1",
-    "nl1",
+    "nll",
+    "nll",
     0,
     "nll",
     "nll",
@@ -299,10 +297,9 @@ export const franes = [
     10,
     12,
     13,
-    0,
-    0,],
+    11,
+    11,],
     0], //frame 11 end
-        ]
 		
 	[2, //12
     "bg1",
@@ -328,7 +325,6 @@ export const franes = [
     1,
     1,],
     0], //frame 12 end
-        ]	
 	
 	[2, //13
     "bg1",
@@ -354,6 +350,181 @@ export const franes = [
     1,
     1,],
     0], //frame 13 end
+    
+    [2, //14
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Reserved Frame",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 14 end
+    
+    [2, //15
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Reserved Frame",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 15 end
+    
+    [2, //16
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Reserved Frame",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 16 end
+    
+    [2, //17
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Reserved Frame",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 17 end
+    
+    [2, //18
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Reserved Frame",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 18 end
+    
+    [2, //19
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Reserved Frame",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 19 end
+    
+    [2, //20
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Reserved Frame",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [11,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 20 end
         ]	
 	
 		
