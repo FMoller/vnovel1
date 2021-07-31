@@ -41,13 +41,13 @@ export const franes = [
     "",
     ["Moeller",
     "Jeff",
-    "Marcos",
+    "Vnovel Plot",
     "Faya"],
     [0,
     1,
     2,
     3,
-    4,
+    21,
     5,],
     0], //frame 1 end
     
@@ -250,6 +250,7 @@ export const franes = [
     9,
     9,],
     0], //frame 9 end
+        
 		
 	[2, //10
     "bg1",
@@ -275,14 +276,15 @@ export const franes = [
     0,
     0,],
     0], //frame 10 end
+        	
 	
 	[0, //11
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nll",
-    "nll",
+    "nl1",
+    "nl1",
     0,
     "nll",
     "nll",
@@ -297,9 +299,10 @@ export const franes = [
     10,
     12,
     13,
-    11,
-    11,],
+    0,
+    0,],
     0], //frame 11 end
+        
 		
 	[2, //12
     "bg1",
@@ -325,6 +328,7 @@ export const franes = [
     1,
     1,],
     0], //frame 12 end
+        	
 	
 	[2, //13
     "bg1",
@@ -350,20 +354,20 @@ export const franes = [
     1,
     1,],
     0], //frame 13 end
-    
-    [2, //14
+	
+	[2, //14
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nll",
-    "nll",
+    "cl1",
+    "ch1",
     0,
     "nll",
     "nll",
     0,
     "nll",
-    "Reserved Frame",
+    "Yeah this is right, you should spend more time developing me instead of playing games",
     ["", //Options
     "",
     "",
@@ -375,20 +379,20 @@ export const franes = [
     1,
     1,],
     0], //frame 14 end
-    
-    [2, //15
+	
+	[2, //15
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nll",
-    "nll",
+    "cl1",
+    "ch1",
     0,
     "nll",
     "nll",
     0,
     "nll",
-    "Reserved Frame",
+    "Yeah this is right, you should spend more time developing me instead of playing games",
     ["", //Options
     "",
     "",
@@ -400,20 +404,20 @@ export const franes = [
     1,
     1,],
     0], //frame 15 end
-    
-    [2, //16
+	
+	[2, //16
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nll",
-    "nll",
+    "cl1",
+    "ch1",
     0,
     "nll",
     "nll",
     0,
     "nll",
-    "Reserved Frame",
+    "Yeah this is right, you should spend more time developing me instead of playing games",
     ["", //Options
     "",
     "",
@@ -425,20 +429,20 @@ export const franes = [
     1,
     1,],
     0], //frame 16 end
-    
-    [2, //17
+	
+	[2, //17
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nll",
-    "nll",
+    "cl1",
+    "ch1",
     0,
     "nll",
     "nll",
     0,
     "nll",
-    "Reserved Frame",
+    "Yeah this is right, you should spend more time developing me instead of playing games",
     ["", //Options
     "",
     "",
@@ -450,20 +454,20 @@ export const franes = [
     1,
     1,],
     0], //frame 17 end
-    
-    [2, //18
+	
+	[2, //18
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nll",
-    "nll",
+    "cl1",
+    "ch1",
     0,
     "nll",
     "nll",
     0,
     "nll",
-    "Reserved Frame",
+    "Yeah this is right, you should spend more time developing me instead of playing games",
     ["", //Options
     "",
     "",
@@ -475,20 +479,20 @@ export const franes = [
     1,
     1,],
     0], //frame 18 end
-    
-    [2, //19
+	
+	[2, //19
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nll",
-    "nll",
+    "cl1",
+    "ch1",
     0,
     "nll",
     "nll",
     0,
     "nll",
-    "Reserved Frame",
+    "Yeah this is right, you should spend more time developing me instead of playing games",
     ["", //Options
     "",
     "",
@@ -500,20 +504,20 @@ export const franes = [
     1,
     1,],
     0], //frame 19 end
-    
-    [2, //20
+	
+	[2, //20
     "bg1",
     "fg1",
     "ch0",
     0,
-    "nll",
-    "nll",
+    "cl1",
+    "ch1",
     0,
     "nll",
     "nll",
     0,
     "nll",
-    "Reserved Frame",
+    "Yeah this is right, you should spend more time developing me instead of playing games",
     ["", //Options
     "",
     "",
@@ -525,6 +529,413 @@ export const franes = [
     1,
     1,],
     0], //frame 20 end
+	
+	// Começo do Plot VNovel
+	
+	[2, //21
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "You arrive at a village after several days travelling. Your old Lord has died in battle but you didn't had the courage to follow his path and has walked theses lands in search of any kind of job",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [1,
+    22,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 21 end
+	
+	[2, //22
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Protagonist:Finally I arrived somewhere, theses days travelling have been so hard with the war going on all sides, but atleast, i have some semblance of hope in this life",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [21,
+    23,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 22 end
+	
+	[2, //23
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "As you approach the village you see signs of an attack. You would ignore such village in a any other day but as desperation hits you, you approach it in hope that you can find some food and a roof over your head",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [22,
+    24,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 23 end
+	
+	[2, //24
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Protagonist: Hello Citizen, what happened here? Have your village been raided by bandits?",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [23,
+    25,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 24 end
+	
+	// (Comentário:Toda a vez que vejo o frame 24 eu rio porque não tive idéia melhor de dialogo mas ao mesmo tempo esse início é comico)
+	
+	[2, //25
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "The villager is surprised by your sudden arrival, but after a second he recovers and answer in some bad mood",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [24,
+    26,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 25 end
+	
+	[2, //26
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Villager:Yeah some bandits attack us not long ago and killed some of the people here. Now if you don't have anything better to do could you stop wasting my time?",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [25,
+    27,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 26 end
+	
+	[2, //27
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Well to not waste more of your time then i have a proposal. I'm searching for a job and as you can see i'm a mercenary. Do you guys nhave anything for me to do or help here?",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [26,
+    28,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 27 end
+	
+	[2, //28
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "The villager looks at you suspecting of you, but he says",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [27,
+    29,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 28 end
+	
+	[2, //29
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Villager: If you wanna talk about any jobs talk to our elder, he is over there",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [28,
+    30,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 29 end
+	
+	[2, //30
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "You go to the person that the guy pointed to you and explain your situation",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [29,
+    31,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 30 end
+	
+	[2, //31
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Protagonist:... So this is my history, like I said i just want a job, i can help with anything here if you let me stay in one of the houses and give me some food",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [30,
+    32,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 31 end
+	
+	[2, //32
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Elder:Ok, but first i need to talk to the others to see if they agree with it",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [31,
+    33,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 32 end
+	
+	[2, //33
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Some time passes, but the eldar returns and says",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [32,
+    34,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 33 end
+	
+	[2, //34
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Elder; Your arrival here is strange, I can't deny that, however we need any help we can get. We will give you some food and a roof, but today go sleep, you appear tired from all your travel",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [33,
+    35,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 34 end
+	
+	[2, //35
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Protagonist: Thanks, you can believe me I will help you as I can",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [34,
+    36,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 35 end
+	
+	[2, //36
+    "bg1",
+    "fg1",
+    "ch0",
+    0,
+    "cl1",
+    "ch1",
+    0,
+    "nll",
+    "nll",
+    0,
+    "nll",
+    "Elder: We will see that",
+    ["", //Options
+    "",
+    "",
+    ""],
+    [35,
+    1,
+    1,
+    1,
+    1,
+    1,],
+    0], //frame 36 end
+	
+	// Fim da Cena 1
+	
         ]	
 	
 		
