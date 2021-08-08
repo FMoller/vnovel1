@@ -124,3 +124,6 @@ DATE = YYYY.MM.DD
 
 ### frames.js
 -Add reserved frames
+
+#2021/08/08
+-Frame dont 36 don't go to frame 37 and the console doesn't appear any error
