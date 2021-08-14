@@ -125,5 +125,8 @@ DATE = YYYY.MM.DD
 ### frames.js
 -Add reserved frames
 
-#2021/08/08
+#[0.02.3]
+##2021/08/08 - Marcos
+### Error report
 -Frame dont 36 don't go to frame 37 and the console doesn't appear any error
+[checked by Moeller] - Error not verified in my machine.
