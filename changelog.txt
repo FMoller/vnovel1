@@ -130,3 +130,9 @@ DATE = YYYY.MM.DD
 ### Error report
 -Frame dont 36 don't go to frame 37 and the console doesn't appear any error
 [checked by Moeller] - Error not verified in my machine.
+
+#[0.02.4]
+##2021/08/18 - Moeller
+###images in general
+-Background window changed
+-Aseprite files for tsundere-chan created.
